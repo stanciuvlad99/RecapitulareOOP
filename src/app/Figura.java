@@ -1,19 +1,19 @@
 package app;
 
-public abstract class Figura {
+public interface Figura {
 
 
-    public abstract void afisare();
+    void afisare();
 
 
-    public  abstract void  translateX(int x);
+    void translateX(int x);
 
 
-    public abstract void  translateY(int y);
+    void translateY(int y);
 
 
-    public abstract void  translate(int x,int y);
+    void translate(int x, int y);
 
 
-    public abstract Figura duplicate();
+    Figura duplicate();
 }

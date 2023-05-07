@@ -1,6 +1,6 @@
 package app;
 
-public class Cerc extends Figura{
+public class Cerc implements Figura{
 
     private Punct punct;
 
@@ -31,7 +31,7 @@ public class Cerc extends Figura{
     public String toString(){
         String text="Sunt un cerc "+"\n";
         text+="Centrul este format din intersectia axelor x si y " + punct + "\n";
-        text+="Raza are " + raza + " ecm"+"\n";
+        text+="Raza are " + raza + " cm"+"\n";
         return text;
     }
 

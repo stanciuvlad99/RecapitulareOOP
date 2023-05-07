@@ -1,6 +1,6 @@
 package app;
 
-public class Dreptunghi extends Figura{
+public class Dreptunghi implements Figura{
 
     private Linie l1;
     private Linie l2;

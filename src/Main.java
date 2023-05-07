@@ -24,7 +24,7 @@ public class Main {
         Linie linie2 = new Linie(p5,p6);
         Linie linie3 = new Linie(p7,p8);
 
-        Dreptunghi dreptunghi = new Dreptunghi(linie1,linie);
+        Dreptunghi dreptunghi = new Dreptunghi(linie,linie1);
 
         String text = "Hello world scrie pe mine";
 
@@ -34,11 +34,11 @@ public class Main {
 
         ArrayList<Figura>figuras = new ArrayList<>();
 
-
         figuras.add(dreptunghi);
         figuras.add(eticheta);
         figuras.add(cerc);
 
+//        figuras.add("dasdsa")
 
         Desen desen = new Desen(figuras);
 

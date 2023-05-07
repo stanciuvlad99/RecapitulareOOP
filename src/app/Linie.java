@@ -1,6 +1,6 @@
 package app;
 
-public class Linie extends Figura {
+public class Linie implements Figura {
 
 
     private Punct p1;

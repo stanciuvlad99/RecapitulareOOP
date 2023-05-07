@@ -1,6 +1,6 @@
 package app;
 
-public class Punct extends Figura {
+public class Punct implements Figura {
 
     private int x;
     private int y;
